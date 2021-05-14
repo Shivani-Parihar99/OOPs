@@ -26,3 +26,8 @@ int main() {
   cout << product(a, b) << endl;
   // cout << product(x) << endl; it would crash since product doesn’t know how to handle a single argument.
 }
+/* Advantages of Function Overloading 
+overloading saves us memory in the system. Creating new functions is more costly compared to overloading a single one.
+Since they are memory-efficient, overloaded functions are compiled faster compared to different functions, especially if the list of functions is long.
+An obvious benefit is that the code becomes simple and clean. We don’t have to keep track of different functions.
+Polymorphism is a very important concept in object-oriented programming. It will come up later on in the course, but function overloading plays a vital role in its implementation.
