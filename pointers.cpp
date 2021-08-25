@@ -19,3 +19,10 @@ int main() {
   cout << *p << endl; // the element at the zero-th index
   cout << *(p + 2) << endl; // the element at the second index
 }
+
+/* O/P The address of var: 0x7ffca45c8324
+The value of var: 10
+The new value of var is: 15
+The new value of *p and var: 20
+1
+5 */
