@@ -26,3 +26,35 @@ The new value of var is: 15
 The new value of *p and var: 20
 1
 5 */
+
+// Pointers and Dynamic Memory
+// Objects in the Heap
+#include <iostream>
+using namespace std;
+
+int main() {
+  int *p = new int;   // dynamic memory reserved for an integer 
+  *p = 10;   // the object is assigned the value of 10
+  cout << "The value of the object p points to: " << *p << endl;
+  
+  int *q = p;   // both pointers point to the same object
+  cout << "The value of the object q points to: " << *q << endl;
+  
+  double *arr = new double[500]; // an array of size 500 has been created in the heap
+  arr[0] = 50;
+  cout << "arr[0]: " << arr[0] << endl;
+  
+  // delete pointers and free up space
+  delete p, q;
+  delete[] arr;
+  cout << "p now points to a random value and should not be accesed: " << *p << endl;
+  p = new int(5); // The pointer can now be re-used to point to something else
+  cout << "The value of the object p points to: " << *p << endl;
+}
+
+/* O/P
+The value of the object p points to: 10
+The value of the object q points to: 10
+arr[0]: 50
+p now points to a random value and should not be accesed: 220064632
+The value of the object p points to: 5 */
