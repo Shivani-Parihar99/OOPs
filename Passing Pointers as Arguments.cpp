@@ -36,6 +36,7 @@ int main() {
   square(p);
   cout << "The value of p after the function call: " << *p << endl;
 }
-/* O/P 
-
+/* O/P
+The value of p before the function call: 5
+The value of p after the function call: 25 */
 
