@@ -33,3 +33,20 @@ int main() {
 }
 /* O/P arr[0]: 0
 arr[3]: 3 */
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int *p = new int(10);
+  cout << p << endl; // The address p points to
+  p++;
+  cout << p << endl; // The pointer has jumped 4 bytes ahead to a new address
+  p--;
+  cout << p << endl; // The pointer jumps back to the original address
+  p += 1;
+  cout << p << endl; // Works the same way as p++
+  p -= 1;
+  cout << p << endl; // Works the same way as p--
+}
