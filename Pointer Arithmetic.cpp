@@ -34,7 +34,7 @@ int main() {
 /* O/P arr[0]: 0
 arr[3]: 3 */
 
-
+// Operators Supported by Pointers
 #include <iostream>
 using namespace std;
 
@@ -50,3 +50,9 @@ int main() {
   p -= 1;
   cout << p << endl; // Works the same way as p--
 }
+/* o/p 
+0x2266c20
+0x2266c24
+0x2266c20
+0x2266c24
+0x2266c20 */
