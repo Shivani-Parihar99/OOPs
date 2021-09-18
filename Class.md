@@ -9,3 +9,10 @@ A car object would have a top speed, the number of seats it has, and so many oth
 
 # Member Functions#
 This category of attributes enables the class object to perform operations using the member variables. In the case of the car class, the Refuel() function would fill up the FuelTank property of the object.
+
+# Benefits of Using Classes#
+The concept of classes allows us to create complex objects and applications in C++. This is why classes are the basic building blocks behind all of the OOP’s principles.
+
+Classes are also very useful in compartmentalizing the code of an application. Different components could become separate classes which would interact through interfaces. These ready-made components will also be available for use in future applications.
+
+The use of classes makes it easier to maintain the different parts of an application since it is easier to make changes in classes.
