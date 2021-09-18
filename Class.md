@@ -6,3 +6,6 @@ Classes are used to create user-defined data types. The predefined data types in
 # Data Members
 These are also known as the member variables of a class. This is because they contain the information relevant to the object of the class.
 A car object would have a top speed, the number of seats it has, and so many other pieces of data that we could store in variables.
+
+# Member Functions#
+This category of attributes enables the class object to perform operations using the member variables. In the case of the car class, the Refuel() function would fill up the FuelTank property of the object.
