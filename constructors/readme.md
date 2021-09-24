@@ -7,3 +7,6 @@ Default Constructor#
 The default constructor is the most basic form of a constructor. Think of it this way:
 
 In a default constructor, we define the default values for the data members of the class. Hence, the constructor creates an object in which the data members are initialized to their default values.
+
+# Parameterized Constructor
+The default constructor isn’t all that impressive. Sure, we could use set functions to set the values for day, month and year ourselves, but this step can be avoided using a parameterized constructor.
