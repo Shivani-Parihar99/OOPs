@@ -12,3 +12,5 @@ In a default constructor, we define the default values for the data members of t
 The default constructor isn’t all that impressive. Sure, we could use set functions to set the values for day, month and year ourselves, but this step can be avoided using a parameterized constructor.
 In a parameterized constructor, we pass arguments to the constructor and set them as the values of our data members.
 We are basically overriding the default constructor to accommodate our preferred values for the data members.
+
+# this Pointer
