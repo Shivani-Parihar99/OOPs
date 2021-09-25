@@ -14,3 +14,7 @@ In a parameterized constructor, we pass arguments to the constructor and set the
 We are basically overriding the default constructor to accommodate our preferred values for the data members.
 
 # this Pointer
+The this pointer exists for every class. It points to the class object itself. We use the pointer when we have an argument which has the same name as a data member.
+this->memberName specifies that we are accessing the memberName variable of the particular class.
+
+Note: Since this is a pointer, we use the -> operator to access members instead of ..
