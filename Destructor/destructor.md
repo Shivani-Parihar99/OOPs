@@ -11,3 +11,6 @@ A class destructor can be created in a similar way to the constructor, except th
 A small degree of garbage collection can be easily achieved through smart pointers. A smart pointer, the shared_ptr in particular, keeps a reference count for the object it points. When the counter comes down to 0, the object is deleted.
 
 It’s time to make a destructor and see how it behaves.
+
+# Destroying Objects is Important
+If we don’t deallocate the memory for the objects which are not in use, we will end up with memory leaks and no space for our application to work long term.
