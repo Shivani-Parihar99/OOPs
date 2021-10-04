@@ -50,3 +50,7 @@ void setRadius(Ball &b, double r){
    cout << "Volume: ";
    b.printVolume();
  }
+
+/* In line 25, we can see that the Ball object is being passed by reference to the friend function. This is a crucial step in the functionality of the friend. If the object is not passed by reference, the changes made in the friend function will not work outside its scope. Basically, our object will not be altered.
+
+The setRadius() function is completely independent of the Ball class, yet it has access to all the private variables. This is the beauty of the friend keyword.*/
