@@ -1,3 +1,4 @@
+# Friend function
 
 So far we have observed that the private data members of a class are only accessible through the functions present in that class. Nothing from outside can manipulate the class object without using its functions.
 
