@@ -9,3 +9,4 @@ Let’s apply this to a real-world scenario. Take the doctor-patient model. In c
 The patient only knows the process of going to the doctor. The logic and reasoning behind the doctor’s prescription of a certain medicine are unknown to the patient. A patient will not understand the medical details the doctor uses to reach his/her decision on the treatment.
 
 This is a classic example of the patient class interacting with the doctor class without knowing the inner workings of the doctor class.
+The transaction shown above seems fairly simple. Data hiding is useful because it can apply the same simplicity to transactions between objects of different classes.
