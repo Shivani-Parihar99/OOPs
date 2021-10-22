@@ -15,4 +15,5 @@ Data hiding can be divided into two primary components:
 
 1. Encapsulation
 2. Abstraction
+
 When used together, they allow us to make efficient classes for further use in our application.
