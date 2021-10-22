@@ -10,3 +10,9 @@ The patient only knows the process of going to the doctor. The logic and reasoni
 
 This is a classic example of the patient class interacting with the doctor class without knowing the inner workings of the doctor class.
 The transaction shown above seems fairly simple. Data hiding is useful because it can apply the same simplicity to transactions between objects of different classes.
+Components of Data Hiding#
+Data hiding can be divided into two primary components:
+
+1. Encapsulation
+2. Abstraction
+When used together, they allow us to make efficient classes for further use in our application.
